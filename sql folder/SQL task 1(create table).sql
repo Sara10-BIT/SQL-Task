@@ -10,3 +10,8 @@
    IsActive BOOLEAN not null default false,
    JobTitle VARCHAR(100)
  );
+
+Inner Join query
+select emp_name,dept_name from employee employee inner join department on employee.department_id=department.dept_id;
+
+select emp_name, dept_name from employee inner join department on employee.department_id = department.dept_id;
